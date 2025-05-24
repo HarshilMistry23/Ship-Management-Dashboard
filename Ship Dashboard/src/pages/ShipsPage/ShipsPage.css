@@ -1,0 +1,10 @@
+.ships-page {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.ships-list-section, .ships-detail-section {
+  flex: 1 1 45%;
+}

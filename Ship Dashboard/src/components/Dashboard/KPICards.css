@@ -1,0 +1,26 @@
+.kpi-cards-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.kpi-card {
+  flex: 1 1 200px;
+  padding: 1rem;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-card h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.kpi-card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}

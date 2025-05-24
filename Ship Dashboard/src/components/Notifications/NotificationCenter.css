@@ -1,0 +1,45 @@
+.notification-center {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.notification-center ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-center li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.notification-center .unread {
+  font-weight: bold;
+  background-color: #f5f9ff;
+}
+
+.notification-center .read {
+  opacity: 0.6;
+}
+
+.notification-center button {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.clear-btn {
+  margin-top: 10px;
+  background-color: #dc3545;
+}
